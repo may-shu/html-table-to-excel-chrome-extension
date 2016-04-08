@@ -1,0 +1,50 @@
+<script type="text/javascript" src="popup.js"></script>
+
+<style>
+    #export{
+        display : block;        
+        width : 100%;
+        
+        padding : 8px 20px;
+        background-color:  #333;
+        
+        color : #fff;
+        font-family: 'Segoe UI';
+        
+        border : 1px solid #222;
+        border-radius: 2px;
+    }
+    
+    #table-identification{
+        font-family: 'Segoe UI';
+        
+        display : block;        
+        width: 100%;
+        height: 34px;
+        
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        
+        border: 1px solid #ccc;
+        box-shadow: 0 0 2px 0 #ccc;
+        margin-bottom: 10px;
+        
+        transition : all .6s;
+    }
+    
+    #table-identification:focus{
+        border-color : #333;
+        box-shadow: 0 0 8px 0 #333;
+    }
+</style>
+
+<div style="width:200px">
+    <p>Enter id or class for table.</p>
+    <input id="table-identification" placeholder="Table Id/Class"/>
+    <button id="export">Export</button>
+</div>
