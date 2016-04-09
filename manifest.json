@@ -1,6 +1,6 @@
 {
     "name" : "Html-Table-To-Excel",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "manifest_version" : 2,
     
     "description" : "An Extension to extract content of HTML table, into an excel file.",
@@ -30,6 +30,7 @@
         "js" : ["actor/jquery.js", "actor/excel-builder.compiled.js", "actor/exporter.js" ]
     }],
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
     ]
 }

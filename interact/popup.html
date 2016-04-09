@@ -1,7 +1,7 @@
 <script type="text/javascript" src="popup.js"></script>
 
 <style>
-    #export{
+    #export, #download{
         display : block;        
         width : 100%;
         
@@ -13,6 +13,10 @@
         
         border : 1px solid #222;
         border-radius: 2px;
+    }
+    
+    #download{
+        margin-top : 10px;
     }
     
     #table-identification{
@@ -47,4 +51,5 @@
     <p>Enter id or class for table.</p>
     <input id="table-identification" placeholder="Table Id/Class"/>
     <button id="export">Export</button>
+    <button id="download">Download Excel</button>
 </div>
